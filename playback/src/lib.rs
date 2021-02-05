@@ -16,9 +16,6 @@ extern crate libpulse_binding;
 #[cfg(feature = "pulseaudio-backend")]
 extern crate libpulse_simple_binding;
 
-#[cfg(feature = "jackaudio-backend")]
-extern crate jack;
-
 #[cfg(feature = "gstreamer-backend")]
 extern crate glib;
 #[cfg(feature = "gstreamer-backend")]

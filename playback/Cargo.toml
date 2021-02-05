@@ -41,7 +41,7 @@ zerocopy        = { version = "0.3", optional = true }
 alsa-backend = ["alsa"]
 portaudio-backend = ["portaudio-rs"]
 pulseaudio-backend = ["libpulse-binding", "libpulse-simple-binding"]
-jackaudio-backend = ["jack"]
+jackaudio-backend = ["rodio", "cpal/jack"]
 rodio-backend = ["rodio", "cpal"]
 sdl-backend = ["sdl2"]
 gstreamer-backend = ["gstreamer", "gstreamer-app", "glib", "zerocopy"]
